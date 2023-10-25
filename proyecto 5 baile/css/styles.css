@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.esqueletoOff{
+    width: 550px;
+    height: 600px;
+    background-color: rgb(93, 197, 133);
+    display: flex;
+    align-content: center;
+    align-items: end;
+    justify-content: center;
+    background-image: url("../img/esqueleto2.png");
+}
+
+.esqueletoOff.on{
+    background-image: url("../img/esqueleto1.gif");
+}
+
+.esqueletoOnOff{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(145, 5, 5);
+    border-radius: 1vh;
+    border: 0.2rem solid rgb(74, 15, 238);
+    position: fixed;
+    color: rgb(242, 244, 245);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
