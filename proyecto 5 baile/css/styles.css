@@ -20,6 +20,8 @@ body{
     align-items: end;
     justify-content: center;
     background-image: url("../img/esqueleto2.png");
+     cursor: pointer;
+
 }
 
 .esqueletoOff.on{
